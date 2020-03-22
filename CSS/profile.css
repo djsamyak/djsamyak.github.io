@@ -1,0 +1,58 @@
+body {
+  background-color: #222629;
+  margin:0px;
+  color: #f9f9f9;
+}
+
+.intro {
+  padding-left: 20px;
+  font-family: Lemon Milk;
+}
+
+.navbar {
+  padding-left: 10px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #61892f;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.navbar li{
+  float: left;
+  list-style-type: none;
+  font-family: "Berlin Sans FB";
+  font-size: 20px;
+}
+
+.navbar a {
+  color: #05004e;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+.navbar a.visited {
+  color: #05004e;
+  text-decoration: none;
+}
+
+}
+.navbar a:hover {
+  color: #ee6f57;
+  text-decoration: none;
+}
+
+.navbar a:active{
+  background-color: #684656;
+}
+
+.content{
+  padding-left: 10px;
+}
