@@ -32,7 +32,7 @@ header .name {
 }
 
 header .content {
-  font-family: 'Book Antiqua';
+  font-family: 'Book Antiqua', sans-serif;
   padding: 0;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -80,6 +80,7 @@ header .logos a {
   display: block;
   padding: 8px 20px;
   text-decoration: none;
+	transition: 0.5s;
 }
 
 .navbar a:visited {
@@ -91,13 +92,14 @@ header .logos a {
   background-color: #313437;
   text-decoration: none;
   color: #86c232;
+	transition: 0.3s;
 }
 
 .navbar a:active{
   background-color: #474b4f;
 }
 
-.content{
+section{
   padding-left: 10px;
   padding-top: 0px;
   box-sizing: border-box;
@@ -108,30 +110,46 @@ header .logos a {
 	box-sizing: border-box;
 }
 
-.content h1 {
+section h1 {
 	margin-top: 0;
 	padding-top: 0;
+	font-size: 32px;
 }
 
 aside{
 	float: left;
-	background-color:#45a29e;
+	background-color:#ffd700;
+	color: #000000;
 	padding: 7px;
 	width: 25%;
+	opacity: 0.7;
 	margin-left: 15px;
 	margin-top: 40px;
-	border-width: 30px;
-	border-color: #45a29e;
 	border-radius: 15px;
 	box-sizing: border-box;
+}
+
+aside img{
+	width: 70%;
+	border: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 50%;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+aside p{
+	text-align: center;
+	font-family: 'Raleway';
+	font-weight: bold;
 }
 
 footer{
 	text-align: center;
 	position: fixed;
-	/*position: static; */
 	bottom: 0;
-	left: 0;
+	font-family: 'Ubuntu';
 	width: 99.0207%;
 	padding: 15px;
 	padding-right: 0px;
