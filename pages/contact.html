@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <!-- fonts-->
-<link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu|Merriweather|Averia+Serif+Libre|Noto+Sans+JP&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../css/profile.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Gotu|Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
   <title>
   Samyak Prajapati
   </title>
@@ -26,12 +26,28 @@
 <nav class="navbar">
   <ul>
     <li><a href="../index.html">Home</a></li>
-    <li><a href="#">About Me</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
     <li><a href="#">Experiences</a></li>
     <li><a href="#">Interests</a></li>
-    <li><a href="contact.html">Get In Touch</a></li>
+    <li><a href="#">Get In Touch</a></li>
   </ul>
 </nav>
+<form id="contactForm" method="POST">
+  <label>NAME</label>
+  <br>
+  <input type="text" name="c_Name" placeholder="John Smith" text="dusbnd">
+    <br>
+  <label>EMAIL ADDRESS</label>
+  <br>
+  <input type="email" name="c_Email" placeholder="j.smith@domain.com">
+    <br>
+  <label>MESSAGE</label>
+  <br>
+  <textarea id="c_message" rows="6" cols="40"></textarea>
+    <br>
+  <input type="submit" value="SUBMIT" form="contactForm">
+    <br>
+</form>
 <footer>
   Designed by Samyak Prajapati
 </footer>
