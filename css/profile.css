@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #222629;
+  background-color: #212121;
   margin:0px;
   color: #f8f8f8;
 }
@@ -125,14 +125,22 @@ section h1 {
 	padding-top: 0;
 	font-size: 32px;
 	animation: sectionmoveh1 2s;
+	font-family: 'Averia Serif Libre';
+	font-color: #fff;
 }
 
 section  h3 {
 	animation: sectionmoveelse 2s;
+	font-family: Merriweather;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-bottom: 0px;
 }
 
 section  p {
 	animation: sectionmoveelse 3s;
+	font-family:'Noto Sans JP';
+	margin-top: 10px;
 }
 
 aside{
